@@ -1,0 +1,28 @@
+
+{
+    "rules": [
+        {
+            "action": "body",
+            "matchField": "",
+            "field": "",
+            "value": "clockTypeData",
+            "matchValue": "blockTypeData",
+            "destiontion": "response",
+            "isRegex": false
+        }
+    ],
+    "enabled": true,
+    "name": "羊了羊",
+    "description": "",
+    "locations": [
+        {
+            "method": "GET",
+            "scheme": "",
+            "enabled": true,
+            "port": 0,
+            "query": "",
+            "host": "cat-match.easygame2021.com",
+            "path": "\/sheep\/v1\/game\/map_info"
+        }
+    ]
+}
